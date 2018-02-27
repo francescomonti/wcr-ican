@@ -1,0 +1,25 @@
+{
+    "name": "wcr/ican",
+    "description": "Laravel roles and permission package",
+    "authors": [
+        {
+            "name": "Francesco Monti",
+            "email": "francescomonti@plurimasrl.com"
+        }
+    ],
+    "require": {
+        "wcr/owner": ">=0.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+          "Wcr\\Ican\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wcr\\Ican\\IcanServiceProvider"
+            ]
+        }
+    }
+}
